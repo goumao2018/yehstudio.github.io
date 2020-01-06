@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const TrioBoxWrapper = styled.div`
     height: 700px;
@@ -28,7 +28,7 @@ export const TrioContainer = styled.div`
 `
 
 export const HeadText = styled.p`
-    margin: auto
+    text-align: center;
     font-size: x-small;
     margin-top: 50px;
 `

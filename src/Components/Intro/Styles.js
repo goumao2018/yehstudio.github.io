@@ -16,21 +16,9 @@ export const BoxContainer = styled.div`
 `
 
 export const IntroBox = styled.div`
-    height: 500px;
-    width: 800px;
     background-color: rgb(45,67,64);
-    position: absolute;
     padding: 20px;
-    right: 0px;
     display: flex;
-`
-
-export const WhiteLogo = styled.img`
-    position: absolute;
-    top: 470px;
-    bottom: 8px;
-    left: 16px;
-    margin: 0;
 `
 
 export const WhyUsContainer = styled.div`

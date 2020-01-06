@@ -1,15 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import logo from "../../asset/logo.png";
 import hero from "../../asset/hero.png";
-import one from "../../asset/one.png"
-import { MainWrapper, 
-  Header, 
-  List, 
-  Item, 
-  HeroImg, 
+import one from "../../asset/one.png";
+import {
+  MainWrapper,
+  Header,
+  List,
+  Item,
+  HeroImg,
   OneImg,
   Hero,
-  MainLogo } from './Styles'
+  MainLogo,
+  HeroWrapper
+} from "./Styles";
 
 class Main extends Component {
   render() {
@@ -21,15 +24,17 @@ class Main extends Component {
             <Item>projects</Item>
             <Item>contact us</Item>
           </List>
-          <MainLogo src={logo} alt="logo"></MainLogo>
+          <MainLogo src={logo} alt="logo" />
         </Header>
         <Hero>
-          <HeroImg src={hero} alt="main"></HeroImg>
-          <OneImg src = {one} alt="one icon"></OneImg>
+          <HeroWrapper>
+            <HeroImg src={hero} alt="main" />
+            <OneImg src={one} alt="one icon" />
+          </HeroWrapper>
         </Hero>
       </MainWrapper>
-    )
- }
+    );
+  }
 }
 
 export default Main;

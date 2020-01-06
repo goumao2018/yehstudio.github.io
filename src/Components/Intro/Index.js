@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
-import logoWhite from "../../asset/logoWhite.png";
 import whyUsImg from "../../asset/whyUsImg.png";
 import { TrioBoxWrapper, 
          Para, 
-         BoxContainer, 
          IntroBox, 
          WhyUsContainer, 
          WhyUsImgContainer,
          WhyUsImg,
-         WhiteLogo,
          WhyUsText } from './Styles'
 
 class TrioBox extends Component {
   render() {
     return (
       <TrioBoxWrapper>
-        <BoxContainer>
             <IntroBox>
                 <WhyUsContainer>
                     <WhyUsText> 
@@ -27,8 +23,6 @@ class TrioBox extends Component {
                     </WhyUsImgContainer>
                 </WhyUsContainer>
             </IntroBox>
-            <WhiteLogo src={logoWhite} alt="white logo"></WhiteLogo>
-        </BoxContainer>
       </TrioBoxWrapper>
     )
  }
