@@ -8,7 +8,6 @@ import {
   List,
   Item,
   HeroImg,
-  OneImg,
   Hero,
   MainLogo,
   HeroWrapper
@@ -19,17 +18,16 @@ class Main extends Component {
     return (
       <MainWrapper>
         <Header>
+          <MainLogo src={logo} alt="logo" />
           <List>
             <Item>about us</Item>
             <Item>projects</Item>
             <Item>contact us</Item>
           </List>
-          <MainLogo src={logo} alt="logo" />
         </Header>
         <Hero>
           <HeroWrapper>
             <HeroImg src={hero} alt="main" />
-            <OneImg src={one} alt="one icon" />
           </HeroWrapper>
         </Hero>
       </MainWrapper>
