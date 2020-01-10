@@ -21,9 +21,14 @@ export const ProjectDetail = styled.div`
   color: black;
 `;
 
-export const ProjectDetailText = styled.p``;
+export const ProjectDetailText = styled.p`
+  font-size: 22px;
+`;
 
-export const ProjectDetailHeader = styled.h1``;
+export const ProjectDetailHeader = styled.h1`
+  font-size: 40px;
+  margin: 0 0 145px 0;
+`;
 
 export const WhyUsContainer = styled.div`
   display: flex;

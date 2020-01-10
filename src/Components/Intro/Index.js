@@ -2,12 +2,15 @@ import React, { Component } from "react";
 import whyUsImg from "../../asset/whyUsImg.png";
 import {
   IntroWrapper,
-  Para,
+  WhyUsParaTwo,
   IntroBox,
   WhyUsContainer,
   WhyUsImgContainer,
+  WhyUsHeader,
   WhyUsImg,
-  WhyUsText
+  WhyUsText,
+  WhyUsParaOne,
+  WhyUsPara
 } from "./Styles";
 
 class TrioBox extends Component {
@@ -17,17 +20,24 @@ class TrioBox extends Component {
         <IntroBox>
           <WhyUsContainer>
             <WhyUsText>
-              <h1>Why us?</h1>
-              <Para>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam
-                nulla porttitor massa id. Risus quis varius quam quisque id diam
-                vel quam elementum. Augue eget arcu dictum varius duis at.
-                Fermentum odio eu feugiat pretium nibh. Vitae nunc sed velit
-                dignissim sodales ut eu sem. Placerat duis ultricies lacus sed.
-                Praesent tristique magna sit amet purus gravida quis blandit.
-                Tincidunt vitae semper quis lectus nulla at volutpat diam.
-              </Para>
+              <WhyUsHeader>Why us?</WhyUsHeader>
+              <WhyUsPara>
+                <WhyUsParaOne>
+                  YEH is a innovative and creative design studio. We have an
+                  international team for making good design and cultural
+                  products that bring more values for brands.
+                </WhyUsParaOne>
+                <WhyUsParaTwo>
+                  Our previous projects based on different self awareness. We
+                  set up our roles as graphic designers, brand makers,
+                  researchers and users for better design outcomes. Funny,
+                  Beautiful, Welcomable, Different, our designs are made from a
+                  passion of joy and professional knowledge. We have spend 3
+                  years to creating playful, cultural and narrative branding
+                  projects for catering, retailing, medical and educational
+                  clients in Melbourne and around the state.
+                </WhyUsParaTwo>
+              </WhyUsPara>
             </WhyUsText>
             <WhyUsImgContainer>
               <WhyUsImg src={whyUsImg} alt="why us"></WhyUsImg>

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import logo from "../../asset/logo.png";
 import hero from "../../asset/hero.png";
-import one from "../../asset/one.png";
 import {
   MainWrapper,
   Header,
