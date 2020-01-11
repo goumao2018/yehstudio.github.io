@@ -3,16 +3,11 @@ import styled from "styled-components";
 export const IntroWrapper = styled.div`
   height: 850px;
   background-color: rgb(45, 67, 64);
-  padding: 100px;
+  padding: 6%;
 `;
 
 export const Para = styled.p`
   color: white;
-`;
-
-export const BoxContainer = styled.div`
-  height: 600px;
-  width: 900px;
 `;
 
 export const IntroBox = styled.div`
@@ -38,9 +33,9 @@ export const WhyUsHeader = styled.h1`
 
 export const WhyUsPara = styled.div`
   font-size: 25px;
-  width: 680px;
   line-height: 40px;
-  margin-right: 50px;
+  margin-right: 13%;
+  overflow-wrap: break-word;
 `;
 
 export const WhyUsParaOne = styled.p`
@@ -50,14 +45,15 @@ export const WhyUsParaOne = styled.p`
 export const WhyUsParaTwo = styled.p``;
 
 export const WhyUsImgContainer = styled.div`
-  flex: 50%;
-  width: 100%;
-  height: 100%;
+  flex: 36%;
+  // width: 30%;
+  // min-width: 400px;
+  height: 800px;
 `;
 
 export const WhyUsImg = styled.img`
-  width: inherit;
-  height: inherit;
+  width: 100%;
+  height: 100%;
   margin: 0;
   margin-top: 40px;
   position: relative;

@@ -56,5 +56,6 @@ export const ReadMore = styled.p`
   position: absolute;
   text-align: center;
   bottom: 0;
-  left: 110px;
+  width: 100%;
+  // left: 110px;
 `;

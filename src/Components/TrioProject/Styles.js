@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
-export const PortfolioListWrapper = styled.div`
-  height: 750px;
+export const TrioProjectWrapper = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
   margin: 0 30px;

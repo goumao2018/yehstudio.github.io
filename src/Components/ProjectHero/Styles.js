@@ -17,8 +17,9 @@ export const ProjectDetail = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  width: 496px;
+  width: 50%;
   color: black;
+  position: relative;
 `;
 
 export const ProjectDetailText = styled.p`
@@ -27,7 +28,8 @@ export const ProjectDetailText = styled.p`
 
 export const ProjectDetailHeader = styled.h1`
   font-size: 40px;
-  margin: 0 0 145px 0;
+  margin: 0;
+  // margin: 0 0 145px 0;
 `;
 
 export const WhyUsContainer = styled.div`
@@ -36,7 +38,7 @@ export const WhyUsContainer = styled.div`
 `;
 export const ThaiImgContainer = styled.div`
   flex: 50%;
-  width: 776px;
+  width: 100%;
 `;
 
 export const ThaiImg = styled.img`
@@ -44,4 +46,17 @@ export const ThaiImg = styled.img`
   height: inherit;
   margin: 0;
   position: relative;
+`;
+
+export const More = styled.p`
+  width: 180px;
+  height: 44px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  border: 3px solid black;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
 `;

@@ -8,7 +8,8 @@ import {
   ProjectDetail,
   ProjectDetailText,
   WhyUsContainer,
-  ProjectDetailHeader
+  ProjectDetailHeader,
+  More
 } from "./Styles";
 
 const ProjectHero = ({ Header, Text, Image }) => {
@@ -23,6 +24,7 @@ const ProjectHero = ({ Header, Text, Image }) => {
         <ProjectDetail>
           <ProjectDetailHeader>{Header}</ProjectDetailHeader>
           <ProjectDetailText>{Text}</ProjectDetailText>
+          <More>More</More>
         </ProjectDetail>
       </WhyUsContainer>
     </ProjectHeroWrapper>

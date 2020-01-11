@@ -5,6 +5,8 @@ import TrioBox from "./Components/TrioBox/Index";
 import Intro from "./Components/Intro/Index";
 import ProjectHero from "./Components/ProjectHero/index";
 import Portfolio from "./Components/Portfolio/Index";
+import TrioProject from "./Components/TrioProject/Index";
+import Footer from "./Components/Footer/Index";
 
 import thai from "./asset/thai.png";
 import ey from "./asset/ey.png";
@@ -31,6 +33,8 @@ class App extends Component {
           }
           Image={ey}
         />
+        <TrioProject />
+        <Footer />
       </div>
     );
   }
