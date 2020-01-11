@@ -7,6 +7,7 @@ import ProjectHero from "./Components/ProjectHero/index";
 import Portfolio from "./Components/Portfolio/Index";
 import TrioProject from "./Components/TrioProject/Index";
 import Footer from "./Components/Footer/Index";
+import Navbar from "./Components/Navbar/Index";
 
 import thai from "./asset/thai.png";
 import ey from "./asset/ey.png";
@@ -15,6 +16,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Main />
         <TrioBox />
         <Intro />

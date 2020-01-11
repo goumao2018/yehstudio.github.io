@@ -1,37 +1,30 @@
-import React, { Component } from "react";
-import logo from "../../asset/logo.png";
-import hero from "../../asset/hero.png";
-import {
-  MainWrapper,
-  Header,
-  List,
-  Item,
-  HeroImg,
-  Hero,
-  MainLogo,
-  HeroWrapper
-} from "./Styles";
+import React from "react";
 
-class Main extends Component {
-  render() {
-    return (
-      <MainWrapper>
-        <Header>
-          <MainLogo src={logo} alt="logo" />
-          <List>
-            <Item>about us</Item>
-            <Item>projects</Item>
-            <Item>contact us</Item>
-          </List>
-        </Header>
-        <Hero>
-          <HeroWrapper>
-            <HeroImg src={hero} alt="main" />
-          </HeroWrapper>
-        </Hero>
-      </MainWrapper>
-    );
-  }
-}
+import hero from "../../asset/hero.png";
+import yellowBar from "../../asset/yellowBar.png";
+
+import { MainWrapper, HeroImg, Hero, HeroWrapper } from "./Styles";
+
+const Main = () => {
+  return (
+    <MainWrapper>
+      <Hero>
+        <HeroWrapper>
+          <HeroImg src={hero} alt="main" />
+        </HeroWrapper>
+      </Hero>
+      <img
+        src={yellowBar}
+        alt="background-yellow"
+        style={{
+          height: "300px",
+          width: "100%",
+          zIndex: "-1",
+          position: "absolute"
+        }}
+      />
+    </MainWrapper>
+  );
+};
 
 export default Main;
