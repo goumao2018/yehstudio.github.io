@@ -1,43 +1,24 @@
 import React, { Component } from "react";
 import "./App.css";
-import Main from "./Components/Main/Index";
-import TrioBox from "./Components/TrioBox/Index";
-import Intro from "./Components/Intro/Index";
-import ProjectHero from "./Components/ProjectHero/index";
-import Portfolio from "./Components/Portfolio/Index";
-import TrioProject from "./Components/TrioProject/Index";
-import Footer from "./Components/Footer/Index";
-import Navbar from "./Components/Navbar/Index";
+import Home from "./Components/Home";
+import Ecommerce from "./Components/Ecommerce";
 
-import thai from "./asset/thai.png";
-import ey from "./asset/ey.png";
+import Navbar from "./Components/Navbar/Index";
+import Footer from "./Components/Footer/Index";
+import { BrowserRouter, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navbar />
-        <Main />
-        <TrioBox />
-        <Intro />
-        <ProjectHero
-          Header={"@siam Thai Restaurant"}
-          Text={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
-          }
-          Image={thai}
-        />
-        <Portfolio />
-        <ProjectHero
-          Header={"New employee onboarding system"}
-          Text={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
-          }
-          Image={ey}
-        />
-        <TrioProject />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div>
+          <Navbar />
+          <Route path="/contact" component={Home} />
+          <Route path="/about" component={Ecommerce} />
+
+          <Footer />
+        </div>
+      </BrowserRouter>
     );
   }
 }
