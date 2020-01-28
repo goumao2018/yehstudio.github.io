@@ -23,7 +23,7 @@ class BrandPackageBlock extends React.Component{
 							<Cell>
 								<CellWrapper>
 									<Title>Preparation</Title>
-									<ol>
+									<ol style={{padding: "20px"}}>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Brand Proposal</li>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Brand research</li>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Brand Competitve analyses</li>
@@ -41,7 +41,7 @@ class BrandPackageBlock extends React.Component{
 							<Cell>
 								<CellWrapper>
 									<Title>Design</Title>
-									<ol>
+									<ol style={{padding: "20px"}}>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Logo design (colors, typography, secondary patterns)</li>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Visual identity (business card, stationary,apron, Brochure layout, Letterhead etc.)</li>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Branding guideline book</li>
@@ -51,7 +51,7 @@ class BrandPackageBlock extends React.Component{
 							<Cell>
 								<CellWrapper>
 									<Title>Graphic design</Title>
-									<ol>
+									<ol style={{padding: "20px"}}>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Promotional material (menu, 	uniform, poster etc.)</li>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Banner</li>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Brochure design</li>
@@ -68,7 +68,7 @@ class BrandPackageBlock extends React.Component{
 						<GridWrapper>
 							<Cell>
 								<CellWrapper>
-									<ol>
+									<ol style={{padding: "20px"}}>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Promotional material (menu, uniform, poster etc.)</li>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Banner</li>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Brochure design</li>
@@ -79,7 +79,7 @@ class BrandPackageBlock extends React.Component{
 							</Cell>
 							<Cell>
 								<CellWrapper>
-									<ol start="6">
+									<ol start="6" style={{padding: "20px"}}>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Promotional material (menu, uniform, poster etc.)</li>
 										<li style={{fontSize: "17px", lineHeight: "33px"}}>Banner</li>
 									</ol>

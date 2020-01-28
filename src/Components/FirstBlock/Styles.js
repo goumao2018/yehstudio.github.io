@@ -4,11 +4,12 @@ export const FirstDiv=styled.div`
 `;
 
 export const Header=styled.p`
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: bold;
 	position: relative;
 	left: 7%;
 	margin-top: 130px;
+	width: 54%;
 `;
 
 export const Paragraph=styled.div`
@@ -20,5 +21,5 @@ export const Paragraph=styled.div`
 `;
 
 export const Content=styled.p`
-	font-size: 22px;
+	font-size: 20px;
 `;
