@@ -1,12 +1,18 @@
 import React from "react";
 
-import { SticklyWrapper, GreenBG, CurrentTab } from "./Styles";
+import { SticklyWrapper, GreenBG, CurrentTab, Tab, Dot } from "./Styles";
 
 const Sticky = () => {
   return (
     <SticklyWrapper>
       <GreenBG />
-      <CurrentTab>E-commence website</CurrentTab>
+      <CurrentTab>Branding Design</CurrentTab>
+      <Dot />
+      <Tab> Design process </Tab>
+      <Dot />
+      <Tab> Branding package </Tab>
+      <Dot />
+      <Tab> Graphic design </Tab>
     </SticklyWrapper>
   );
 };

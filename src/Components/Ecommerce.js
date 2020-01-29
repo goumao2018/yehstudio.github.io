@@ -92,7 +92,7 @@ const Ecommerce = () => {
           <Eproject imgSource={yellowBox} />
           <Eproject imgSource={greenBox} />
         </div>
-        <Sticky />
+        {/* <Sticky /> */}
       </div>
       <EcommerceTrio />
       <GrayBox />
