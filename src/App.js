@@ -15,8 +15,8 @@ class App extends Component {
         <div>
           <Navbar />
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={Ecommerce} />
-          <Route path="/projects" component={Projects} />
+          <Route path="/yehstudio.github.io/about" component={Ecommerce} />
+          <Route path="/yehstudio.github.io/projects" component={Projects} />
           <Footer />
         </div>
       </BrowserRouter>
