@@ -11,7 +11,7 @@ export const BackgroundImg=styled.div`
 
 export const Title = styled.div`
 	font-size: 60px;
-	position: absolute;
-	top:33%;
-	left:7%;
+	position: relative;
+	top: 40%;
+	text-align: center;
 `;

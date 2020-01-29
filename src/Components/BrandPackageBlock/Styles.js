@@ -18,7 +18,7 @@ export const GridWrapper=styled.div`
 `;
 
 export const Header=styled.p`
-	font-size: 35px;
+	font-size: 32px;
 	font-weight: bold;
 	length: 50%;
 `;
