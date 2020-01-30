@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Header = styled.div`
   height: 30px;
@@ -15,7 +16,7 @@ export const MainLogo = styled.img`
   height: 40px;
 `;
 
-export const Navlink = styled.a`
+export const Navlink = styled(Link)`
   color: white;
   text-decoration: none;
 `;

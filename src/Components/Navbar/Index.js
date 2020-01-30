@@ -8,13 +8,13 @@ const Navbar = () => {
       <MainLogo src={logo} alt="logo" />
       <List>
         <Item>
-          <Navlink href="/about">about us</Navlink>
+          <Navlink to="/about">about us</Navlink>
         </Item>
         <Item>
-          <Navlink href="/projects">projects</Navlink>
+          <Navlink to="/projects">projects</Navlink>
         </Item>
         <Item>
-          <Navlink href="/contact">contact us</Navlink>
+          <Navlink to="/contact">contact us</Navlink>
         </Item>
       </List>
     </Header>
