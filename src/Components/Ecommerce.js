@@ -88,11 +88,23 @@ const Ecommerce = () => {
         }}
       >
         <div>
-          <Eproject imgSource={greenBox} />
-          <Eproject imgSource={yellowBox} />
-          <Eproject imgSource={greenBox} />
+          <Eproject
+            imgSource={greenBox}
+            projectId="branding-design"
+            projectTitle="Branding Design"
+          />
+          <Eproject
+            imgSource={yellowBox}
+            projectId="design-process"
+            projectTitle="Design Process"
+          />
+          <Eproject
+            imgSource={greenBox}
+            projectId="branding-package"
+            projectTitle="Branding Package"
+          />
         </div>
-        {/* <Sticky /> */}
+        <Sticky />
       </div>
       <EcommerceTrio />
       <GrayBox />

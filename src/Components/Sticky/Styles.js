@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SticklyWrapper = styled.div`
+export const StickyWrapper = styled.div`
   height: 200px;
   width: 100px;
   position: -webkit-sticky;
@@ -35,6 +35,10 @@ export const Tab = styled.p`
   font-size: 18px;
   margin-top: 10px;
   height: 170px;
+
+  &.isActive {
+    background-color: goldenrod;
+  }
 `;
 export const ProjectImg = styled.img`
   font-size: 22px;

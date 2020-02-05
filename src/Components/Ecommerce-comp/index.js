@@ -4,8 +4,8 @@ import { Wrapper, Header, EmptyBox, Para } from "./Styles";
 
 const EcommerceProject = prop => {
   return (
-    <Wrapper>
-      <Header>E-commence website </Header>
+    <Wrapper id={prop.projectId}>
+      <Header>{prop.projectTitle} </Header>
       <EmptyBox src={prop.imgSource} alt="green box" />
       <Para>
         Lorem Ipsum is simply dummy text of the printing and typesetting

@@ -1,19 +1,26 @@
 import React from "react";
+import Scrollspy from "react-scrollspy";
 
-import { SticklyWrapper, GreenBG, CurrentTab, Tab, Dot } from "./Styles";
+import { StickyWrapper, GreenBG, CurrentTab, Tab, Dot } from "./Styles";
 
 const Sticky = () => {
   return (
-    <SticklyWrapper>
-      <GreenBG />
-      <CurrentTab>Branding Design</CurrentTab>
-      <Dot />
-      <Tab> Design process </Tab>
-      <Dot />
-      <Tab> Branding package </Tab>
-      <Dot />
-      <Tab> Graphic design </Tab>
-    </SticklyWrapper>
+    <StickyWrapper>
+      <Scrollspy
+        items={["branding-design", "design-process", "branding-package"]}
+        currentClassName="isActive"
+      >
+        <Tab>
+          <a href="#branding-design">Branding Design</a>
+        </Tab>
+        <Tab>
+          <a href="#design-process"> Design process </a>
+        </Tab>
+        <Tab>
+          <a href="#branding-package">Branding package </a>
+        </Tab>
+      </Scrollspy>
+    </StickyWrapper>
   );
 };
 
