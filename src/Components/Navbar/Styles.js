@@ -30,6 +30,8 @@ export const List = styled.ul`
 export const Item = styled.li`
   text-transform: uppercase;
   font-family: PingFangTC-Semibold;
+  color: white;
+  text-decoration: none;
   font-size: 12px;
   display: inline;
   padding-right: 40px;

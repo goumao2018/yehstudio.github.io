@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { css } from "styled-components";
 
 export const StickyWrapper = styled.div`
   height: 200px;
@@ -7,7 +8,6 @@ export const StickyWrapper = styled.div`
   position: sticky;
   top: 30px;
   padding-right: 70px;
-  margin-top: 40px;
 `;
 
 export const GreenBG = styled.div`
@@ -18,28 +18,28 @@ export const GreenBG = styled.div`
   position: relative;
 `;
 
-export const CurrentTab = styled.p`
-  font-size: 18px;
-  position: absolute;
-  width: 200px;
-  left: -40px;
-  top: 80px;
-  margin: 0;
+export const CurrentTab = styled.a`
+  text-decoration: none;
+  color: black;
 `;
 
-export const Tab = styled.p`
+export const Tab = styled.div`
   writing-mode: vertical-rl;
   text-orientation: mixed;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
-  margin-top: 10px;
-  height: 170px;
-
+  width: 50px;
+  height: 200px;
   &.isActive {
-    background-color: goldenrod;
+    background-color: rgb(206, 255, 121);
   }
 `;
+
+// export const isActive = css`
+//   backgroundcolor: goldenrod;
+// `;
+
 export const ProjectImg = styled.img`
   font-size: 22px;
   width: 100%;

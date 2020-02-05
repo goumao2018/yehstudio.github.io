@@ -16,7 +16,7 @@ import {
 class TrioBox extends Component {
   render() {
     return (
-      <IntroWrapper>
+      <IntroWrapper id="whyus">
         <IntroBox>
           <WhyUsContainer>
             <WhyUsText>

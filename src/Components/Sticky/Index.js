@@ -1,5 +1,6 @@
 import React from "react";
 import Scrollspy from "react-scrollspy";
+import Scrollchor from "react-scrollchor";
 
 import { StickyWrapper, GreenBG, CurrentTab, Tab, Dot } from "./Styles";
 
@@ -10,15 +11,21 @@ const Sticky = () => {
         items={["branding-design", "design-process", "branding-package"]}
         currentClassName="isActive"
       >
+        {/* <Scrollchor to="#branding-design"> */}
         <Tab>
-          <a href="#branding-design">Branding Design</a>
+          <CurrentTab href="#branding-design">Branding Design</CurrentTab>
         </Tab>
+        {/* </Scrollchor>
+        <Scrollchor to="#design-process"> */}
         <Tab>
-          <a href="#design-process"> Design process </a>
+          <CurrentTab href="#design-process"> Design process </CurrentTab>
         </Tab>
+        {/* </Scrollchor> */}
+        {/* <Scrollchor to="#branding-package"> */}
         <Tab>
-          <a href="#branding-package">Branding package </a>
+          <CurrentTab href="#branding-package">Branding package </CurrentTab>
         </Tab>
+        {/* </Scrollchor> */}
       </Scrollspy>
     </StickyWrapper>
   );
