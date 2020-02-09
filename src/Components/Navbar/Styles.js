@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export const Header = styled.div`
-  height: 30px;
+  height: 50px;
   background-color: rgb(45, 67, 64);
-  padding: 50px 100px 20px 100px;
+  padding: 50px 160px 20px 150px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -16,18 +16,30 @@ export const MainLogo = styled.img`
   height: 40px;
 `;
 
-export const Navlink = styled(Link)`
+export const NavLink = styled(HashLink)`
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+
   color: white;
-  text-decoration: none;
 `;
 
-export const List = styled.ul`
-  list-style-type: none;
+export const List = styled.div`
   float: right;
   height: 30px;
+  padding-top: 18px;
 `;
 
-export const Item = styled.li`
+export const HeaderLogo = styled.a`
+  display: inline-block;
+`;
+
+export const Item = styled.a`
   text-transform: uppercase;
   font-family: PingFangTC-Semibold;
   color: white;
@@ -37,6 +49,6 @@ export const Item = styled.li`
   padding-right: 40px;
 
   &:last-child {
-    padding-right: 10px;
+    padding-right: 0px;
   }
 `;

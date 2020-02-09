@@ -17,7 +17,7 @@ const Main = () => {
         src={yellowBar}
         alt="background-yellow"
         style={{
-          height: "300px",
+          height: "400px",
           width: "100%",
           zIndex: "-1",
           position: "absolute"

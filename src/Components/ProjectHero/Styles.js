@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectHeroWrapper = styled.div`
-  height: 700px;
+  height: 800px;
 `;
 
 export const Line = styled.hr`
@@ -48,7 +48,9 @@ export const ThaiImg = styled.img`
   position: relative;
 `;
 
-export const More = styled.p`
+export const More = styled.a`
+  text-decoration: none;
+  color: black;
   width: 180px;
   height: 44px;
   padding-top: 20px;

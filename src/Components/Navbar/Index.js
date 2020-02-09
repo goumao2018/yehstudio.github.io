@@ -1,26 +1,26 @@
 import React from "react";
-import { Header, List, Item, MainLogo, Navlink } from "./Styles";
+import { Header, HeaderLogo, List, Item, MainLogo, NavLink } from "./Styles";
 import logo from "../../asset/logo.png";
 import Scrollchor from "react-scrollchor";
+
+const NewItem = NavLink.withComponent(Scrollchor);
 
 const Navbar = () => {
   return (
     <Header>
-      <MainLogo src={logo} alt="logo" />
+      <HeaderLogo href="/">
+        <MainLogo src={logo} alt="logo" />
+      </HeaderLogo>
       <List>
-        <Scrollchor to="#whyus">
-          <Item>about us</Item>
-        </Scrollchor>
-        <Scrollchor>
-          <Item>
-            <Navlink to="/projects">projects</Navlink>
-          </Item>
-        </Scrollchor>
-        <Scrollchor>
-          <Item>
-            <Navlink to="/contact">contact us</Navlink>
-          </Item>
-        </Scrollchor>
+        <Item>
+          <NewItem to="#whyus">about us</NewItem>
+        </Item>
+        <Item>
+          <NewItem to="#hero-project">projects</NewItem>
+        </Item>
+        <Item>
+          <NewItem to="#contact-us">contact us</NewItem>
+        </Item>
       </List>
     </Header>
   );

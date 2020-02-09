@@ -26,7 +26,7 @@ export const HeroWrapper = styled.div`
 export const HeroImg = styled.img`
   display: block;
   margin: auto;
-  height: 600px;
+  height: 700px;
   width: 80%;
 `;
 

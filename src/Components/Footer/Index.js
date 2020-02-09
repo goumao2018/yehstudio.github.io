@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact-us">
       <FooterHeading>Want to say hello</FooterHeading>
       <FooterSubHeading>
         you can reach us via contact@yehstudio.com.au

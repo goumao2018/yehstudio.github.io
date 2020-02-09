@@ -14,7 +14,7 @@ import {
 
 const ProjectHero = ({ Header, Text, Image }) => {
   return (
-    <ProjectHeroWrapper>
+    <ProjectHeroWrapper id="hero-project">
       <Line />
       <WhyUsContainer>
         <ThaiImgContainer>
@@ -24,7 +24,7 @@ const ProjectHero = ({ Header, Text, Image }) => {
         <ProjectDetail>
           <ProjectDetailHeader>{Header}</ProjectDetailHeader>
           <ProjectDetailText>{Text}</ProjectDetailText>
-          <More>More</More>
+          <More href="/projects">More</More>
         </ProjectDetail>
       </WhyUsContainer>
     </ProjectHeroWrapper>
