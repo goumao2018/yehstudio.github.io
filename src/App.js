@@ -14,6 +14,7 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Navbar />
+      { alert("hello!"); }
           <Route exact path="/" component={Home} />
           <Route path="/contact" component={Home} />
           <Route path="/projects" component={Ecommerce} />
