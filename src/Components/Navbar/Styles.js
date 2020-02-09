@@ -13,7 +13,7 @@ export const Header = styled.div`
 
 export const MainLogo = styled.img`
   margin: 0;
-  height: 40px;
+  height: 45px;
 `;
 
 export const NavLink = styled(HashLink)`

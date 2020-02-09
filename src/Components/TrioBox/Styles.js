@@ -5,19 +5,18 @@ export const TrioBoxWrapper = styled.div`
 `;
 
 export const TrioHeader = styled.div`
-  height: 40px;
+  height: 100px;
   margin-top: 20px;
+
   /* position: relative; */
 `;
-export const Line = styled.hr`
+export const ArrowBox = styled.img`
   display: block;
-  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  margin-top: 100px;
   border: 0;
-  border-top: 2px solid black;
-  margin-top: 80px;
-  /* margin: auto;
-    padding: 15px; */
-  z-index: 100;
 `;
 
 export const TrioContainer = styled.div`

@@ -16,8 +16,8 @@ class App extends Component {
           <Navbar />
           <Route exact path="/" component={Home} />
           <Route path="/contact" component={Home} />
-          <Route path="/about" component={Ecommerce} />
-          <Route path="/projects" component={Projects} />
+          <Route path="/projects" component={Ecommerce} />
+          <Route path="/about" component={Projects} />
           <Footer />
         </div>
       </BrowserRouter>

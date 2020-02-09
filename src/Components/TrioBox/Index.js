@@ -1,9 +1,10 @@
 import React from "react";
 import "./Styles.js";
+import arrowBox from "../../asset/ecommerce/arrowBox.png";
 import {
   TrioBoxWrapper,
   TrioHeader,
-  Line,
+  ArrowBox,
   HeadText,
   Trio,
   TrioContainer,
@@ -16,7 +17,7 @@ const TrioBox = () => {
   return (
     <TrioBoxWrapper>
       <TrioHeader>
-        <Line />
+        <ArrowBox src={arrowBox} alt="arrow"></ArrowBox>
       </TrioHeader>
       <HeadText>
         We provide multiple choices to meet our customer needs
