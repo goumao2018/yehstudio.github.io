@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23c60db07944cf1b6c81ff6d442d609b",
+    "revision": "64e5d37f96028afa28cf7ac7b34f32e9",
     "url": "/yehstudio.github.io/index.html"
   },
   {
-    "revision": "7249ab23403bcc31b270",
+    "revision": "c416f6774803c0f56905",
     "url": "/yehstudio.github.io/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yehstudio.github.io/static/js/2.8bfd231a.chunk.js.LICENSE"
   },
   {
-    "revision": "7249ab23403bcc31b270",
-    "url": "/yehstudio.github.io/static/js/main.57dd678e.chunk.js"
+    "revision": "c416f6774803c0f56905",
+    "url": "/yehstudio.github.io/static/js/main.fc358af6.chunk.js"
   },
   {
     "revision": "40dc0cc2fc79e23cc478",
